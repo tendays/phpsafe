@@ -1,0 +1,39 @@
+Reading test.php...
+test.php:7: Warning, $notinitialised may not have been initialised.
+test.php:29: operator []: Warning, expected array({_}), got trusted num
+test.php:67: parameter 1 of function m_query: Warning, expected mysqlescape(string), got string
+$_GET : array(string)
+$_POST : array(string)
+$_SERVER : array(trusted string)
+$a : array(<empty>)
+$an : array(trusted num)
+$as : array(string)
+$aselt : mysqlescape(string)
+$ats : array(mysqlescape(string))
+$ats2 : array(mysqlescape(string))
+$au : array(trusted <mixed>)
+$badfromarray : <error>
+$concatenated : mysqlescape(string)
+$fcall : array(trusted num)
+$fromarray : mysqlescape(string)
+$fromemptyarray : <empty>
+$invisible : trusted num
+$loopa : trusted string
+$loopb : trusted string
+$loopc : string
+$loopd : string
+$moretrusted : trusted string
+$nolongertrusted : mysqlescape(string)
+$registerglobals : string
+$request : mysqlescape(string)
+$requestcopy : mysqlescape(string)
+$select : trusted <mixed>
+$trustednum : trusted num
+$trustedstring : trusted string
+count : {0: <mixed>} -> {-1: num}
+f : {0: array({_})} -> {'invisible': trusted num, -1: {_}}
+mysql_query : {0: mysqlescape(string)} -> {-1: resource}
+mysql_error : {} -> {-1: string}
+mysql_real_escape_string : {0: string} -> {-1: mysqlescape(string)}
+m_query : {0: mysqlescape(string)} -> {}
+isset : {0: <mixed>} -> {-1: boolean}
