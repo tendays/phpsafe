@@ -1,0 +1,6 @@
+This is "phpsafe", a PHP code analyser based on a static type
+system. It is designed to detect vulnerabilities caused by not
+protecting untrusted data, such as cross site scripting, sql and shell
+injection, use of uninitialised variables (which is a problem on
+system where register globals *still* hasn't been turned off), etc.
+
